@@ -14,7 +14,6 @@ const addFroyoCountToArray = (list) => {
     for(let j = 0; j < froyoKey.length; j++){
       if(froyoKey[j] === list[i]){
         froyoCount[froyoKey[j]] += 1;
-        console.log(`added`);
       }else{
         froyoCount[list[i]] = 1;
       }
